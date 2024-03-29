@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+
+}
+.navbar{
+    width: 100%;
+    height: 84px;
+    border: 1px solid #f2f2f2;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.navbar_location{
+    height:84px;
+    border: 1px solid #f2f2f2;
+    /* padding: 20px; */
+    padding: 20px 30px 20px 30px;
+}
+.navbar_delivery_deatils{
+margin-bottom:6px;
+
+}
+.navbar_delivery_deatils b{
+    font-size: 18px;
+    font-weight: 800;
+    color:black;
+    
+}
+.navbar_location_deatils{
+    display: flex;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    color:black;
+}
+.navbar_search{
+    border: 1px solid #f8f8f8;
+    border-radius: 10px;
+    background-color:#f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.navbar_search i{
+   padding-left: 12px;
+   font-size: 20px;
+}
+.navbar_search input{
+    border: none;
+    outline: none;
+    height: 46px;
+    width: 500px;
+    background-color:#f8f8f8;
+    margin-left: 14px;
+
+}
+.navbar_login{
+    font-size: 20px;
+}
+.navbar_cart{
+ color: #fff;
+ background-color: #0c831f;
+ padding-left: 12px;
+ border-radius: 5px;
+ font-size:20px;
+}
+.navbar_cart button{
+    background-color: #0c831f;
+    color: #fff;
+    height: 50px;
+    width: 80px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size:15px;
+}
+.banner_second_section{
+    
+    margin: 20px 100px 0 100px;
+   
+}
+.banner_second_section img{
+    width: 100%;
+    border-radius: 10px;
+}
+.banner_third_section{
+    width: 90%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 30px 0 0 60px;
+
+    
+}
+.pharmacy_banner img{
+    width: 400px;
+    height: 200px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+}
+.pet_care_banner img{
+    width: 400px;
+    height: 200px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.baby_care_banner img{
+    width: 400px;
+    height: 200px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.grocery_section{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    margin: 40px 0 0 100px;
+    
+
+}
+.grocery_section img{
+    width: 300px;
+    height: 200px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+}
+.product--card{
+    width: 250px;
+    height: 370px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.1);
+}
+.product--image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product--image-container img{
+    width: 200px;
+    height: 200px;
+    mix-blend-mode: multiply;
+    margin: 15px 0 15px 0;
+    
+}
+.product--details{
+    padding: 15px 0 15px 10px;
+}
+.product--weight{
+    color:var(--colors-grey-800);
+    font-weight: 500;
+    font-size: 12px;
+
+}
+.product--price{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.product--price span{
+    font-size: 13px;
+    font-weight: 600;
+}
+.product--price p{
+    font-size: 12px;
+    color:#828282;
+    font-weight: 500;
+}
+.product--price button:hover{
+    background-color: #318616;
+    color: #fff;
+}
+.product--price button{
+    border: none;
+    outline: none;
+    width: 66px;
+    height: 32px;
+    border: 1px solid #318616;
+    background-color: #fff;
+    color: #318616;
+    margin-right: 12px;
+    border-radius: 5px;
+}
+.product--container,.product--container1{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    margin: 30px 70px 30px 60px;
+
+}
+.daily_grocery_name,.water_iteams{
+    margin: 60px 0 0 80px;
+}
+.footer--content,.footer--content1,.footer--content2{
+    width:100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    border-top: 1px solid #eae2e2;
+
+}
+.footer--content--details1 span,.footer--content--details4 span{
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+.footer--content--details2 ul,.footer--content--details3 ul,.footer--content--details5 ul,.footer--content--details6 ul{
+    margin-top: 50px;
+}
+.last_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.about_blinkit p{
+    font-size: 11px;
+    color: #828282;
+}
+.download_blinkit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.download_blinkit p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #828282;
+}
+
+.download_blinkit img{
+    width: 100px;
+    height: 40px;
+    border-radius:10px;
+    padding: 5px;
+}
+.social_media_icons i{
+   font-size:40px; 
+   margin-left: 15px;
+}
+.social_media_icons i:hover{
+    scale:0.9;
+}
